@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    background: linear-gradient(124deg,
+    #ff2400,#e81d1d,
+    #e8b71d,#e3e81d,
+    #1de840,#1ddde8,
+    #2b1de8,#dd00f3,
+    #dd00f3);
+    background-repeat: no-repeat;
+    background-size: 110% 800%;
+    flex-direction: column;
+    animation: rainbow 10s ease infinite;
+    min-height: 110vh;
+}
+
+@keyframes rainbow {
+    0%{background-position: 0% 80%;}
+    50%{background-position: 100% 20%;}
+    100%{background-position: 0% 80%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
